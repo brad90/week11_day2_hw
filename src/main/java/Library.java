@@ -25,4 +25,8 @@ public class Library {
             return false;
         }
     }
+
+    public Book lendBookFromLibrary(int index) {
+        return this.library.get(index);
+    }
 }
